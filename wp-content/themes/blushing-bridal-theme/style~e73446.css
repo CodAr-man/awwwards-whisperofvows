@@ -3,7 +3,7 @@ Theme Name: Blushing Bridal
 Theme URI: https://blushingbridalboutique.com
 Author: iCreate Your Site
 Author URI: https://icreateyoursite.com
-Description: Custom luxury bridal theme for Blushing Bridal Boutique — Ontario's largest authorized Milla Nova retailer.
+Description: Custom luxury bridal theme for Blushing Bridal Boutique — Melbourne's largest authorized Calla Blanche retailer.
 Version: 1.0.8
 Requires at least: 6.0
 Tested up to: 6.7
@@ -802,8 +802,39 @@ em {
 .hero__title {
   color: var(--black);
   margin-bottom: 28px;
+}
+
+/* Split-line reveal: each line slides up from behind an overflow mask */
+.hero__title-line {
+  display: block;
+  overflow: hidden;
+  /* Slight padding prevents descenders/ascenders from clipping */
+  padding-bottom: 0.05em;
+}
+
+.hero__title-line-inner {
+  display: block;
   opacity: 0;
-  animation: fadeUp 0.8s var(--ease-out) 0.4s forwards;
+  transform: translateY(105%);
+}
+
+/* For the main hero title, play immediately */
+.hero .hero__title-line-inner {
+  animation: heroLineReveal 2.2s cubic-bezier(0.2, 1, 0.2, 1) 0.45s forwards;
+}
+
+/* For elements inside a scroll-reveal, play only when .visible is added */
+.reveal.visible .hero__title-line-inner {
+  animation: heroLineReveal 2.2s cubic-bezier(0.2, 1, 0.2, 1) 0.1s forwards;
+}
+
+/* Stagger: second line starts later */
+.hero .hero__title-line--2 .hero__title-line-inner {
+  animation-delay: 0.75s;
+}
+
+.reveal.visible .hero__title-line--2 .hero__title-line-inner {
+  animation-delay: 0.4s;
 }
 
 .hero__title em {
@@ -1608,7 +1639,7 @@ em {
 }
 
 .review-card__text {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.7;
@@ -1995,6 +2026,20 @@ em {
     transform: translateY(30px);
   }
   to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroLineReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(105%);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -2546,7 +2591,7 @@ body .nav__dropdown-heading {
 
 /* -- Review cards -- */
 body .review-card__text {
-  font-family: 'Tangerine', serif !important;
+  font-family: 'Playfair Display', serif !important;
   font-size: 1.1rem !important;
   font-style: italic !important;
   line-height: 1.7 !important;
@@ -2717,4 +2762,22 @@ body .reviews__google-badge {
 
 body .reviews__count {
   font-family: 'Playfair Display', sans-serif !important;
+}
+
+/* ========================================
+   REDUCED-MOTION FALLBACK
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .hero__title-line-inner {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }

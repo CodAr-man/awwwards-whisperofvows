@@ -1,13 +1,7 @@
 # External Domains and Cloned Artifacts
-fonts.googleapis.com/
-fonts.gstatic.com/
-icreatethiswebsite.com/
 js.stripe.com/
 m.stripe.com/
 m.stripe.network/
-maps.googleapis.com/
-maps.gstatic.com/
-www.google.com/
 www.gstatic.com/
 
 # Node/NPM/Logs
@@ -44,4 +38,4 @@ Icon
 .env*.local
 
 # Downloaded Assets
-gcloud-bucket-assets/
+assets/images/

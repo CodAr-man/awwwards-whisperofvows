@@ -33,8 +33,8 @@ Text Domain: blushing-bridal
   --gray-light: #b0b0b0;
   --gray-border: #e0dbd5;
 
-  --font-display: 'Cormorant Garamond', 'Georgia', serif;
-  --font-body: 'Jost', 'Helvetica Neue', sans-serif;
+  --font-display: 'Tangerine', 'Georgia', serif;
+  --font-body: 'Playfair Display', 'Helvetica Neue', sans-serif;
 
   --header-height: 90px;
   --section-pad: clamp(80px, 10vw, 140px);
@@ -2367,7 +2367,7 @@ em {
 /* -- Body & base fonts -- */
 body.home,
 body.page-template-front-page {
-  font-family: 'Jost', 'Helvetica Neue', sans-serif !important;
+  font-family: 'Playfair Display', 'Helvetica Neue', sans-serif !important;
   font-weight: 300 !important;
   font-size: 16px !important;
   line-height: 1.7 !important;
@@ -2392,7 +2392,7 @@ body .experience h3,
 body .booking-modal h2,
 body .booking-modal h3,
 body .instagram-section h2 {
-  font-family: 'Cormorant Garamond', 'Georgia', serif !important;
+  font-family: 'Tangerine', 'Georgia', serif !important;
   font-weight: 400 !important;
   line-height: 1.1 !important;
   color: inherit;
@@ -2410,7 +2410,7 @@ body .hero__title em {
 }
 
 body .hero__eyebrow {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.7rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.3em !important;
@@ -2418,26 +2418,26 @@ body .hero__eyebrow {
 }
 
 body .hero__subtitle {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 1.05rem !important;
   color: #2c2c2c !important;
 }
 
 body .hero__detail-num {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: 'Tangerine', serif !important;
   font-size: 1.6rem !important;
   font-weight: 500 !important;
 }
 
 body .hero__detail-label {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.7rem !important;
   color: #6b6b6b !important;
 }
 
 /* -- Buttons -- */
 body .btn {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.75rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.2em !important;
@@ -2493,7 +2493,7 @@ body .btn--dark-outline {
 
 /* -- Section tags -- */
 body .section-tag {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.7rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.25em !important;
@@ -2502,7 +2502,7 @@ body .section-tag {
 
 /* -- Nav menu links -- */
 body .nav__menu > li > a {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.78rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.14em !important;
@@ -2514,7 +2514,7 @@ body .nav__book-link,
 body .site-header .nav__book-link,
 body .site-header .nav__topbar .nav__book-link,
 .nav__topbar a.nav__book-link {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.62rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.18em !important;
@@ -2528,12 +2528,12 @@ body .site-header .nav__book-link span {
 }
 
 body .nav__icon-btn--currency span {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 /* -- Dropdown links -- */
 body .nav__dropdown-col a {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.85rem !important;
   color: #3d3d3d !important;
 }
@@ -2546,7 +2546,7 @@ body .nav__dropdown-heading {
 
 /* -- Review cards -- */
 body .review-card__text {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: 'Tangerine', serif !important;
   font-size: 1.1rem !important;
   font-style: italic !important;
   line-height: 1.7 !important;
@@ -2557,7 +2557,7 @@ body .review-card--lg .review-card__text {
 }
 
 body .review-card__name {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.85rem !important;
 }
 
@@ -2572,91 +2572,91 @@ body .fullscreen-cta__title {
 }
 
 body .fullscreen-cta__eyebrow {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 body .fullscreen-cta__text {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 /* -- About section -- */
 body .about__content p {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 body .about__stat-num {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: 'Tangerine', serif !important;
 }
 
 body .about__stat-label {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 /* -- Split CTA -- */
 body .split-cta__content p {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 /* -- Dark CTA -- */
 body .dark-cta__title,
 body .dark-cta h2 {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: 'Tangerine', serif !important;
   font-size: clamp(2.2rem, 4.5vw, 3.8rem) !important;
   color: #0a0a0a !important;
   line-height: 1.1 !important;
 }
 
 body .dark-cta__eyebrow {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.68rem !important;
 }
 
 body .dark-cta__text {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 1.05rem !important;
 }
 
 body .dark-cta__phone {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: 'Tangerine', serif !important;
   font-size: 1.2rem !important;
 }
 
 /* -- Experience section -- */
 body .experience__item p {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 /* -- Gallery -- */
 body .gallery__subtitle {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 body .gallery__dress-name {
-  font-family: 'Cormorant Garamond', serif !important;
+  font-family: 'Tangerine', serif !important;
 }
 
 /* -- Footer -- */
 body .footer {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 body .footer__tagline {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 body .footer__col h4 {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 /* -- Booking modal -- */
 body .booking-modal__info p,
 body .booking-modal__list li {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }
 
 /* -- Mobile menu -- */
 body .mobile-menu > ul > li > a {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 0.85rem !important;
   font-weight: 400 !important;
   letter-spacing: 0.12em !important;
@@ -2710,11 +2710,11 @@ body .booking-modal * {
 
 /* -- Google badge override -- */
 body .reviews__google-badge {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
   font-size: 1.4rem !important;
   font-weight: 600 !important;
 }
 
 body .reviews__count {
-  font-family: 'Jost', sans-serif !important;
+  font-family: 'Playfair Display', sans-serif !important;
 }

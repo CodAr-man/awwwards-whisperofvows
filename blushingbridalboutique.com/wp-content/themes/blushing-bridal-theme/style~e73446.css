@@ -1907,6 +1907,8 @@ em {
   width: auto;
   filter: brightness(0) invert(1);
   margin-bottom: 20px;
+  transform: scale(2.5);
+  transform-origin: center left;
 }
 
 .footer__tagline {

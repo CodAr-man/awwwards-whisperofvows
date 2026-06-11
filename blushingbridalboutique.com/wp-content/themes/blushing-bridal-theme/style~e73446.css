@@ -23,10 +23,10 @@ Text Domain: blushing-bridal
   --black: #0a0a0a;
   --white: #ffffff;
   --off-white: #faf9f7;
-  --cream: #f5f0eb;
-  --blush: #e8d5c4;
-  --blush-dark: #c9a888;
-  --gold: #b8966c;
+  --cream: #E6E8C4;
+  --blush: #C9C388;
+  --blush-dark: #A5B86C;
+  --gold: #758225;
   --gold-light: #d4b896;
   --charcoal: #2c2c2c;
   --gray: #6b6b6b;
@@ -732,7 +732,7 @@ em {
 }
 .mobile-menu__shortcuts a svg {
   flex: 0 0 18px;
-  color: var(--gold, #b8966c);
+  color: var(--gold, #758225);
 }
 .mobile-menu__currency-row {
   display: flex;
@@ -753,7 +753,7 @@ em {
 }
 .mobile-menu__currency-label svg {
   flex: 0 0 18px;
-  color: var(--gold, #b8966c);
+  color: var(--gold, #758225);
 }
 .mobile-menu__currency-widget {
   flex: 0 0 auto;
@@ -785,7 +785,7 @@ em {
     radial-gradient(ellipse at 0% 100%, rgba(232, 213, 196, 0.7) 0%, transparent 50%),
     radial-gradient(ellipse at 100% 0%, rgba(212, 184, 150, 0.45) 0%, transparent 45%),
     radial-gradient(ellipse at 60% 60%, rgba(201, 168, 136, 0.15) 0%, transparent 70%),
-    linear-gradient(150deg, #f5f0eb 0%, #ece1d5 40%, #f2ebe4 100%);
+    linear-gradient(150deg, #E6E8C4 0%, #ece1d5 40%, #f2ebe4 100%);
 }
 
 .hero__eyebrow {
@@ -2406,7 +2406,7 @@ body .hero__title {
 }
 
 body .hero__title em {
-  color: #b8966c !important;
+  color: #758225 !important;
   font-style: italic !important;
 }
 
@@ -2415,7 +2415,7 @@ body .hero__eyebrow {
   font-size: 0.7rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.3em !important;
-  color: #b8966c !important;
+  color: #758225 !important;
 }
 
 body .hero__subtitle {
@@ -2498,7 +2498,7 @@ body .section-tag {
   font-size: 0.7rem !important;
   font-weight: 500 !important;
   letter-spacing: 0.25em !important;
-  color: #b8966c !important;
+  color: #758225 !important;
 }
 
 /* -- Nav menu links -- */
@@ -2563,7 +2563,7 @@ body .review-card__name {
 }
 
 body .review-card__stars {
-  color: #b8966c !important;
+  color: #758225 !important;
 }
 
 /* -- Fullscreen CTA -- */

@@ -820,21 +820,20 @@ em {
 
 /* For the main hero title, play immediately */
 .hero .hero__title-line-inner {
-  animation: heroLineReveal 2.2s cubic-bezier(0.2, 1, 0.2, 1) 0.45s forwards;
+  animation-name: heroLineReveal;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.2, 1, 0.2, 1);
+  animation-fill-mode: forwards;
+  animation-delay: var(--reveal-delay, 0.45s);
 }
 
 /* For elements inside a scroll-reveal, play only when .visible is added */
 .reveal.visible .hero__title-line-inner {
-  animation: heroLineReveal 2.2s cubic-bezier(0.2, 1, 0.2, 1) 0.1s forwards;
-}
-
-/* Stagger: second line starts later */
-.hero .hero__title-line--2 .hero__title-line-inner {
-  animation-delay: 0.75s;
-}
-
-.reveal.visible .hero__title-line--2 .hero__title-line-inner {
-  animation-delay: 0.4s;
+  animation-name: heroLineReveal;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.2, 1, 0.2, 1);
+  animation-fill-mode: forwards;
+  animation-delay: var(--reveal-delay, 0.1s);
 }
 
 .hero__title em {

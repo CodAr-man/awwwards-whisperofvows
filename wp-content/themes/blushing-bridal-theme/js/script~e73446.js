@@ -1,5 +1,5 @@
 /* ========================================
-   BLUSHING BRIDAL BOUTIQUE — Scripts
+   Whisper of Vows BOUTIQUE — Scripts
    ======================================== */
 
 document.addEventListener('DOMContentLoaded', () => {

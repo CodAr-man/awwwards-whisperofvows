@@ -1,9 +1,9 @@
 /*
-Theme Name: Blushing Bridal
+Theme Name: Whisper of Vows
 Theme URI: https://blushingbridalboutique.com
-Author: iCreate Your Site
+Author: Bluesmith Ai
 Author URI: https://icreateyoursite.com
-Description: Custom luxury bridal theme for Blushing Bridal Boutique — Melbourne's largest authorized Calla Blanche retailer.
+Description: Custom luxury bridal theme for Whisper of Vows Boutique — Melbourne's largest authorized Calla Blanche retailer.
 Version: 1.0.8
 Requires at least: 6.0
 Tested up to: 6.7
@@ -14,7 +14,7 @@ Text Domain: blushing-bridal
 */
 
 /* ========================================
-   BLUSHING BRIDAL BOUTIQUE
+   Whisper of Vows BOUTIQUE
    Luxury Editorial Bridal Design System
    ======================================== */
 
@@ -1869,15 +1869,16 @@ em {
 }
 
 .experience__item h3 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: var(--black);
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 .experience__item p {
   color: var(--gray);
-  font-size: 0.95rem;
-  max-width: 320px;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  max-width: 360px;
   margin: 0 auto;
 }
 
